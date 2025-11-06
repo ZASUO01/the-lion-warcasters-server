@@ -6,6 +6,8 @@ project(${PROJECT_NAME})
 
 add_executable(${PROJECT_NAME}
         Source/Main.cpp
+        Source/Network/Platforms.cpp
+        Source/Network/Platforms.h
 )
 
 if(WIN32)
