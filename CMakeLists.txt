@@ -8,6 +8,10 @@ add_executable(${PROJECT_NAME}
         Source/Main.cpp
         Source/Network/Platforms.cpp
         Source/Network/Platforms.h
+        Source/Network/NetUtils.cpp
+        Source/Network/NetUtils.h
+        Source/Network/Packet.cpp
+        Source/Network/Packet.h
 )
 
 if(WIN32)
